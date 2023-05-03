@@ -29,8 +29,8 @@ A counter example would be that we are given denominations = [1, 6, 8, 9, 10] an
 
  **2b.**
 
-With dynamic programming we would want to incorporate a bottom up approach. We would first calculating the different denominations needed for an amount of 1, and build a table of them and the powers that they are raised to. That way we construct our memoization table would directly affect our work and span
-Thus, the work would be O(k*N) . Our span would be the path through the table  which would therefore be O(k+N).
+With dynamic programming we would want to incorporate a bottom up approach. We would first calculate the different denominations and build a table of them and the powers that they are raised to. That way we construct our memoization table would directly affect our work and span
+Therefore our  work would be O(k*N) . Our span would be the path through the table  which would therefore be O(k+N).
 
 
 
